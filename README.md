@@ -4,11 +4,11 @@
  This will hold Orange Pi 3 LTS Setup with some overlap of the next tutorial on Klipper Setup.
 
 1. Get Orange Pi 3 LTS
-2. [Goto Armbian website and get latest bulleye (debian) CLI image](https://redirect.armbian.com/region/NA/orangepi3-lts/Bullseye_current)
+2. [Goto Armbian website and get latest bullseye (debian) CLI image](https://redirect.armbian.com/region/NA/orangepi3-lts/Bullseye_current)
 3. flash image to A1 8+ gb MicroSD card. there is many options to flash OS image i use the [raspberry Pi OS image Utiliy](https://www.raspberrypi.com/software/)
 4. install microsd into orange pi. 
 5. Plug in HDMI and usb keyboard. follow onscreen instructions to choose bash for your shell, your user and password ,and to connect to wifi network
-6. sudo apt-get upgrade
+6. Enter'apt-get update' then 'apt-get upgrade'. you could now copy the OS to the onboard eMMC with 'nand-sata-install'. (this is for Orange Pi 3 LTS and armbian bullseye)
 7. your new Orange Pi 3 LTS is now a fully operational SBC server. next steps will Install and turn it into a klipper server
 
 # Klipper Setup
