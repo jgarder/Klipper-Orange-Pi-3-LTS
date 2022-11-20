@@ -4,7 +4,7 @@
  This will hold Orange Pi 3 LTS Setup with some overlap of the next tutorial on Klipper Setup.
 
 1. Get Orange Pi 3 LTS
-2. [Goto Armbian website and get latest bulleye (debian) CLI image](https://www.armbian.com/orangepi3-lts/)
+2. [Goto Armbian website and get latest bulleye (debian) CLI image](https://redirect.armbian.com/region/NA/orangepi3-lts/Bullseye_current)
 3. flash image to A1 8+ gb MicroSD card. there is many options to flash OS image i use the [raspberry Pi OS image Utiliy](https://www.raspberrypi.com/software/)
 4. install microsd into orange pi. 
 5. Plug in HDMI and usb keyboard. follow onscreen instructions to choose bash for your shell, your user and password ,and to connect to wifi network
